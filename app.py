@@ -33,16 +33,15 @@ MODEL_ID = "gemini-2.0-flash"  # Fast, capable, widely available model
 @st.cache_resource(show_spinner=False)
 def get_gemini_client():
     """Return a configured google.genai Client, or None + error message."""
-    try:
-    api_key = st.secrets["GEMINI_API_KEY"]
-    
+        try:
+        api_key = st.secrets["GEMINI_API_KEY"]
 
-except (KeyError, FileNotFoundError):
-    return None, (
-        "🔑 **Gemini API key not found.**\n\n"
-        "Add GEMINI_API_KEY in Streamlit Community Cloud → "
-        "App settings → Secrets."
-    )
+    except (KeyError, FileNotFoundError):
+        return None, (
+            "🔑 **Gemini API key not found.**\n\n"
+            "Add GEMINI_API_KEY in Streamlit Community Cloud → "
+            "App settings → Secrets."
+        )
     try:
         from google import genai  # imported here so missing-package errors are caught
 
