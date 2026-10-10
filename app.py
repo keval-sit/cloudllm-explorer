@@ -24,7 +24,7 @@ st.set_page_config(
 # ---------------------------------------------------------------------------
 # Constants
 # ---------------------------------------------------------------------------
-MODEL_ID = "gemini-2.0-flash"  # Fast, capable, widely available model
+MODEL_ID = "gemini-2.5-flash"  # Fast, capable, widely available model
 
 
 # ---------------------------------------------------------------------------
