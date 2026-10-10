@@ -78,7 +78,7 @@ cloudllm-explorer/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/kevaljatakia/cloudllm-explorer.git
+git clone https://github.com/keval-sit/cloudllm-explorer.git
 cd cloudllm-explorer
 ```
 
@@ -159,7 +159,7 @@ Any push to the `main` branch auto-redeploys the app.
 
 ## 🔗 Links
 
-- **GitHub Repository:** [github.com/kevaljatakia/cloudllm-explorer](https://github.com/kevaljatakia/cloudllm-explorer)
+- **GitHub Repository:** [github.com/keval-sit/cloudllm-explorer](https://github.com/keval-sit/cloudllm-explorer)
 - **Deployed App:** *(URL will be added after deployment)*
 
 ---
