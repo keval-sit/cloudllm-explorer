@@ -34,8 +34,7 @@ MODEL_ID = "gemini-2.0-flash"  # Fast, capable, widely available model
 def get_gemini_client():
     """Return a configured google.genai Client, or None + error message."""
         try:
-        api_key = st.secrets["GEMINI_API_KEY"]
-
+             api_key = st.secrets["GEMINI_API_KEY"]
     except (KeyError, FileNotFoundError):
         return None, (
             "🔑 **Gemini API key not found.**\n\n"
